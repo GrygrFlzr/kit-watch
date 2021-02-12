@@ -1,0 +1,20 @@
+{
+    "name": "kit-watch",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/app.js",
+    "type": "module",
+    "scripts": {
+        "start": "env-cmd --silent node ./src/app.js"
+    },
+    "author": "GrygrFlzr <grygrflzr@hotmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^14.14.27"
+    },
+    "dependencies": {
+        "discord.js": "^12.5.1",
+        "env-cmd": "^10.1.0",
+        "latest-version": "^5.1.0"
+    }
+}
