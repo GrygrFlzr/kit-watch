@@ -11,7 +11,7 @@ const npmWatchlist = [
     ['create-svelte', 'next'],
     ['@sveltejs/kit', 'next'],
     ['@sveltejs/app-utils', 'next'],
-    ['@sveltejs/snowpack-config', 'next'],
+    ['@sveltejs/vite-plugin-svelte', 'next'],
     ['@sveltejs/adapter-node', 'next'],
     ['@sveltejs/adapter-netlify', 'next'],
     ['@sveltejs/adapter-vercel', 'next'],
