@@ -6,6 +6,7 @@ const filename = 'versions.json';
 
 /**
  * @type { [string, string][] }
+ * list of npm modules and which branch to follow
  */
 const npmWatchlist = [
     ['create-svelte', 'next'],
@@ -48,7 +49,7 @@ async function saveVersions(versionList) {
 }
 
 /**
- *
+ * Discord only allows 10 embeds per message
  * @param { [string, string][] } list
  * @return { [string, string][][] }
  */
